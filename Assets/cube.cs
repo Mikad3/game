@@ -17,7 +17,11 @@ public class cube : MonoBehaviour {
 
     void OnMouseDown()
     {
+        // コメントテスト
+
         Instantiate(Broken, transform.position, Broken.transform.rotation);
         Destroy(gameObject);
     }
+
+
 }
