@@ -3,6 +3,7 @@ using System.Collections;
 
 public class cube : MonoBehaviour {
 
+    // è¿½è¨˜ãƒ†ã‚¹ãƒˆ
     public GameObject Broken;
 
 	// Use this for initialization
@@ -17,8 +18,6 @@ public class cube : MonoBehaviour {
 
     void OnMouseDown()
     {
-        // ƒRƒƒ“ƒgƒeƒXƒg
-
         Instantiate(Broken, transform.position, Broken.transform.rotation);
         Destroy(gameObject);
     }
